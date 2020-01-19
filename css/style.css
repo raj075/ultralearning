@@ -3,8 +3,6 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-
-
 }
 
 h1 {
@@ -38,7 +36,6 @@ h3 {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
-
 }
 
 .middle-container {
@@ -47,7 +44,7 @@ h3 {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding:50px 0 20px;
+  padding: 50px 0 20px;
 }
 
 .bottom-cloud {
@@ -96,21 +93,22 @@ p {
   float: right;
   margin-left: 30px;
 }
-a{
+
+a {
   font-family: 'Montserrat', sans-serif;
-  color:#f50202;
-  margin:10px 20px;
+  color: #f50202;
+  margin: 10px 20px;
   text-decoration: none;
 }
 
-a:hover{
-  color:#eaf6f6
+a:hover {
+  color: #eaf6f6
 }
 
-.copyright{
-  color:#eaf6f6;
+.copyright {
+  color: #eaf6f6;
   font-size: 0.7rem;
-  padding:20px 0;
+  padding: 20px 0;
 }
 
 hr {
@@ -160,4 +158,43 @@ hr {
   -moz-border-radius: 8px;
   border-radius: 8px;
   text-decoration: none;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration:none;
+  margin-left: 120px;
+
+
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* The navigation bar */
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  text-align: center;
+
 }
